@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+#game{
+    height:600px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(6,auto);
+}
+.box{
+    width:60px;
+    height: 60px;
+    border: 2px solid #3A3A3C;
+    margin: 4px;
+    color:white;
+    text-transform: uppercase;
+    display:grid ;
+}
